@@ -66,8 +66,8 @@ const Detail = ({ data }) => {
 export default Detail;
 export const getServerSideProps = async (context) => {
   const id = context.query.id;
-  const api_key = process.env.API_KEY;
-  const api_id = process.env.API_ID;
+  const api_key = process.env.RECIPE_API_KEY;
+  const api_id = process.env.RECIPE_API_ID;
   const data = await fetch(
     `https://api.edamam.com/api/recipes/v2/${id}?type=public&app_id=${api_id}&app_key=${api_key}`
   );
