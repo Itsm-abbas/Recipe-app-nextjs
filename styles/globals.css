@@ -14,3 +14,33 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.main {
+  width: var(--max-width);
+  margin: 0 auto;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: white;
+  transform: scale(1) !important;
+  transition: .3s all linear;
+}
+
+@media screen and (min-width:768px) {
+  .form_wrapper_small {
+    width: 80% !important;
+    margin: 0 auto;
+  }
+}

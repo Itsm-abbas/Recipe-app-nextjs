@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Open+Sans:wght@300;400&family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+:root {
+    --primary-color: hsl(196, 67%, 35%);
+    --primary-color-light: hsl(196, 67%, 55%);
+    --max-width: 90%;
+    --Ubuntu-font: 'Ubuntu', sans-serif;
+    --Open-sans-font: 'Open Sans', sans-serif;
+    --Montserrat: 'Montserrat', sans-serif;
+    --Marker-font: 'Permanent Marker', cursive;
+}
