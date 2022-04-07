@@ -2,6 +2,7 @@ import React from "react";
 import style from "../styles/recipe.module.css";
 import RecipeBox from "./RecipeBox";
 const Recipe = ({ data, search }) => {
+  console.log(data, search);
   return (
     <>
       <div className={style.heading}>{search} recipes</div>
