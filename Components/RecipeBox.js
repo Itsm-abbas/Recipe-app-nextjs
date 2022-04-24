@@ -5,7 +5,6 @@ import Link from "next/link";
 const RecipeBox = ({ item }) => {
   const uri = item.uri;
   const id = uri.slice(uri.indexOf("_") + 1);
-  console.log(item.image);
   return (
     <div className={style.recipeBox_wrapper}>
       <Image
